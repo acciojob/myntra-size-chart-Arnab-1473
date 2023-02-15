@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+h1{
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+th, td{
+    text-align: center;
+    padding: 8px;
+    -ms-text-align-last: left;
+}
+th{
+    background-color: rgb(226, 83, 16);
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+td:first-child{
+    text-align: left;
+}
